@@ -1,0 +1,41 @@
+v 3
+d metalong: Longitudinal Meta-Analysis with Robust Variance Estimation and Sensitivity Analysis
+d
+d Provides a complete workflow for synthesising evidence from studies
+d reporting outcomes at multiple follow-up time points. Includes
+d DerSimonian-Laird pooling with cluster-robust variance estimation,
+d time-varying ITCV sensitivity analysis, benchmark calibration,
+d restricted cubic spline time trends, leave-k-out fragility analysis,
+d and combined publication figures.
+d
+d Stata translation of the R package metaLong v0.1.0.
+d
+d Author:  Subir Hait, Michigan State University
+d Email:   haitsubi@msu.edu
+d ORCID:   0009-0004-9871-9677
+d Version: 1.0.0
+d Date:    April 2026
+d
+d Requires: Stata version 14.1
+d
+d References:
+d   Frank (2000) doi:10.1177/0049124100029002003
+d   Hedges, Tipton & Johnson (2010) doi:10.1002/jrsm.5
+d   Tipton (2015) doi:10.1037/met0000011
+d
+f ado/ml_meta.ado
+f ado/ml_sens.ado
+f ado/ml_benchmark.ado
+f ado/ml_spline.ado
+f ado/ml_fragility.ado
+f ado/metalong_plot.ado
+f ado/sim_longmeta.ado
+f help/metalong.sthlp
+f help/ml_meta.sthlp
+f help/ml_sens.sthlp
+f help/ml_benchmark.sthlp
+f help/ml_spline.sthlp
+f help/ml_fragility.sthlp
+f help/metalong_plot.sthlp
+f help/sim_longmeta.sthlp
+e

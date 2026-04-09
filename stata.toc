@@ -1,0 +1,3 @@
+v 3
+d Packages written by Subir Hait <haitsubi@msu.edu>
+p metalong Longitudinal Meta-Analysis with Robust Variance Estimation and Sensitivity Analysis
